@@ -17,9 +17,6 @@ public abstract class TraitementDecorateur implements Traitement {
 		this.traitement = traitement;
 	}
 
-	public void operation() {
-		if (traitement != null) {
-			traitement.operation();
-		}
-	}
+	public abstract void operation();
+	
 }

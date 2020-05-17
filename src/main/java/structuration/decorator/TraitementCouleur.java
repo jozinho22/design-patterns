@@ -24,7 +24,6 @@ public class TraitementCouleur extends TraitementDecorateur {
 		if (traitement != null) {
 			traitement.operation();
 		}
-
 		System.out.println("Ajout de la couleur " + couleur);
 	}
 }
