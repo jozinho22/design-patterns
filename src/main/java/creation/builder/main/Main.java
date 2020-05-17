@@ -3,6 +3,11 @@ package creation.builder.main;
 import creation.builder.Meal;
 import creation.builder.MealBuilder;
 
+/*
+ * Un Builder class crée les objets finaux pas à pas...
+ * Ce Builder est indépendant des autres objets.  
+ * 
+ */
 public class Main {
 
 	public static void main(String[] args) {
